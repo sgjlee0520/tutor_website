@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Bio from './components/Bio';
 import Philosophy from './components/Philosophy';
+import Portfolio from './components/Portfolio';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 
@@ -21,6 +22,7 @@ const AppContent = () => {
             <Hero />
             <Bio />
             <Philosophy />
+            <Portfolio />
             <ContactSection />
             <Footer />
         </div>

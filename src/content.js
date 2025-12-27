@@ -77,7 +77,7 @@ export const content = {
     },
     hero: {
       subtitle: "프리미엄 한/영 이중언어 STEM 및 포트폴리오 컨설팅",
-      title: "완벽한 이중언어 수업으로\nSTEM 정복과 명문대 포트폴리오 완성",
+      title: "STEM 정복과 명문대 포트폴리오 완성",
       description: "2025년 노벨 물리학상 수상자(John M. Martinis, Michel H. Devoret)를 배출한 미국 Top 10 물리학과 UCSB 출신. AI, 수학(Algebra 1/2, Geometry, Trig, Pre-Calc, Calc AB/BC, Linear Algebra, Multivariable Calc, IB 과정), 물리, 화학, 프로그래밍 전문 지도.",
       cta: "상담 신청하기",
     },

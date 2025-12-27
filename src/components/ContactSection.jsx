@@ -21,6 +21,12 @@ const ContactSection = () => {
                 }}>
                     {text.desc}
                 </p>
+                {content[language].schedule && (
+                    <div style={{ marginBottom: '30px', color: 'var(--text-secondary)' }}>
+                        <p style={{ margin: '6px 0' }}><strong>In-person (Summer):</strong> {content[language].schedule.inPerson}</p>
+                        <p style={{ margin: '6px 0' }}><strong>Online:</strong> {content[language].schedule.online}</p>
+                    </div>
+                )}
 
                 <div style={{
                     display: 'flex',

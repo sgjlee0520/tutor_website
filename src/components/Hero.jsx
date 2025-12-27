@@ -57,7 +57,8 @@ const Hero = () => {
                         marginBottom: '3rem',
                         lineHeight: '1.6',
                         maxWidth: '600px',
-                        margin: '0 auto 3rem auto'
+                        margin: '0 auto 3rem auto',
+                        whiteSpace: 'pre-line'
                     }}
                 >
                     {text.description}

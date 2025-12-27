@@ -45,6 +45,28 @@ const Bio = () => {
                 }}>
                     {text.description}
                 </p>
+                {text.students && (
+                    <div style={{ borderTop: '1px solid rgba(255,255,255,0.06)', paddingTop: '20px', marginTop: '20px' }}>
+                        <h3 style={{ marginBottom: '10px' }}>Students & Experience</h3>
+                        <ul style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginBottom: '10px' }}>
+                            {text.students.map((s, i) => (
+                                <li key={i} style={{ color: 'var(--text-primary)' }}>• {s}</li>
+                            ))}
+                        </ul>
+                        {text.workplaces && (
+                            <p style={{ color: 'var(--text-secondary)', marginBottom: '8px' }}>
+                                <strong>Places:</strong> {text.workplaces.join(' • ')}
+                            </p>
+                        )}
+                        {text.website && (
+                            <p style={{ marginTop: '8px' }}>
+                                <a href={text.website} target="_blank" rel="noreferrer" style={{ color: 'var(--accent-gold)' }}>
+                                    Visit my personal website
+                                </a>
+                            </p>
+                        )}
+                    </div>
+                )}
             </div>
         </section>
     );

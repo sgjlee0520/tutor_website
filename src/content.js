@@ -8,8 +8,12 @@ export const content = {
     hero: {
       subtitle: "Professional Bilingual STEM & Portfolio Consulting",
       title: "Master STEM & Build Your Future with Expert Bilingual Instruction",
-      description: "Fluent instruction in English or Korean. Led by a scholar from UCSB (Top 10 Physics School in US)—home to 2025 Nobel Prize winners John M. Martinis and Michel H. Devoret. Specializing in AI, Mathematics (Algebra 1/2, Geometry, Trigonometry, Pre-Calc, Calc AB/BC, Linear Algebra, Multivariable Calculus, IB Courses), Physics, Chemistry, and Programming.",
+      description: "Fluent instruction in English or Korean.\n• UCSB alumnus — Top 10 Physics (home to 2025 Nobel Prize winners John M. Martinis & Michel H. Devoret)\n• Specialties: AI; Mathematics (Algebra 1/2, Geometry, Trigonometry, Pre-Calc, Calc AB/BC, Linear Algebra, Multivariable Calculus, IB); Physics; Chemistry; Programming.",
       cta: "Apply for Consultation",
+    },
+    schedule: {
+      inPerson: "Summer in-person sessions: June 15 — September 18, 2026 (select weekdays). Exact schedule confirmed after enrollment.",
+      online: "Online tutoring: year-round, flexible scheduling to accommodate international and seasonal needs."
     },
     bio: {
       title: "The Instructor",
@@ -21,6 +25,20 @@ export const content = {
         "Bilingual Mastery: Expert Instruction in both English and Korean",
       ],
       description: "I come from UCSB's elite Physics department, a Top 10 program in the US that recently produced 2025 Nobel Prize winners John M. Martinis and Michel H. Devoret. Combined with my background as a Top of Class graduate from Blue Ridge School and acceptances to prestigious universities like UVA, I offer a proven roadmap for academic and portfolio success.",
+      students: [
+        "Middle & High School Students",
+        "AP / IB Candidates",
+        "College-bound STEM Applicants",
+        "STEM & AI Enthusiasts",
+        "Students from: United States, Canada, Korea, China, Philippines, Azerbaijan, Indonesia, Senegal, Thailand, India"
+      ],
+      workplaces: [
+        "Seoul Language Institute - Centum branch (서울어학원 센텀지점) — SAT Math teacher (since 2021)",
+        "Private tutoring",
+        "Online platforms",
+        "Independent consulting"
+      ],
+      website: "https://sgjlee0520.github.io/Website/"
     },
     portfolio: {
       title: "Extracurricular & Portfolio Management",
@@ -78,8 +96,12 @@ export const content = {
     hero: {
       subtitle: "프리미엄 한/영 이중언어 STEM 및 포트폴리오 컨설팅",
       title: "STEM 정복과\n명문대 포트폴리오 완성",
-      description: "2025년 노벨 물리학상 수상자(John M. Martinis, Michel H. Devoret)를 배출한 미국 Top 10 물리학과 UCSB 출신. AI, 수학(Algebra 1/2, Geometry, Trig, Pre-Calc, Calc AB/BC, Linear Algebra, Multivariable Calc, IB 과정), 물리, 화학, 프로그래밍 전문 지도.",
+      description: "2025년 노벨 물리학상 수상자를 배출한 미국 Top 10 물리학과 UCSB 출신.\n• 전문 과목: AI, 수학(Algebra 1/2, Geometry, Trig, Pre-Calc, Calc AB/BC, Linear Algebra, Multivariable Calc, IB 과정), 물리, 화학, 프로그래밍.\n• 수업 언어: 한국어 / 영어(이중언어 수업 가능)",
       cta: "상담 신청하기",
+    },
+    schedule: {
+      inPerson: "여름 대면 수업: 2026년 6월 15일 — 9월 18일 (선택된 평일에 진행). 정확한 시간표는 등록 후 안내됩니다.",
+      online: "온라인 수업: 연중 상시, 유동적 일정 조정 가능"
     },
     bio: {
       title: "강사 소개",
@@ -91,6 +113,20 @@ export const content = {
         "완벽한 이중언어 구사: 학생 맞춤형 한/영 교차 강의",
       ],
       description: "2025년 노벨 물리학상 수상자 John M. Martinis와 Michel H. Devoret 교수를 배출하며 미국 Top 10 물리학과의 위상을 입증한 UCSB 출신입니다. Blue Ridge School 수석 졸업 및 UVA 합격의 경험을 바탕으로, 단순한 선행 학습을 넘어 미국 명문대가 원하는 진정한 학문적 탁월함과 포트폴리오를 완성해 드립니다.",
+      students: [
+        "중·고등학생",
+        "AP/IB 응시생",
+        "대학 진학 준비생",
+        "STEM/AI 관심 학생",
+        "학생 출신 국가: 미국, 캐나다, 한국, 중국, 필리핀, 아제르바이잔, 인도네시아, 세네갈, 태국, 인도"
+      ],
+      workplaces: [
+        "서울어학원 센텀지점 - SAT Math 강사 (2021년~)",
+        "개인 과외",
+        "온라인 플랫폼",
+        "독립 컨설팅"
+      ],
+      website: "https://sgjlee0520.github.io/Website/"
     },
     portfolio: {
       title: "비교과 및 포트폴리오 매니지먼트",
